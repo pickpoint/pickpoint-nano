@@ -1,6 +1,6 @@
 [package]
 name = "pickpoint-nano"
-version = "2.0.0"
+version = "2.0.1"
 edition = "2021"
 rust-version = "1.70"
 description = "Tiny tracking.v2 HTTP ingest helper for GPS beacons — not a mini Pickpoint SDK (no geocoding, routing, or listener)"
