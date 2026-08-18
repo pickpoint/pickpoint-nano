@@ -1,0 +1,21 @@
+[package]
+name = "pickpoint-nano"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Tiny tracking.v2 HTTP ingest helper for GPS beacons — not a mini Pickpoint SDK (no geocoding, routing, or listener)"
+license = "Apache-2.0"
+repository = "https://github.com/pickpoint/pickpoint-nano"
+homepage = "https://pickpoint.io"
+documentation = "https://docs.rs/pickpoint-nano"
+readme = "README.md"
+keywords = ["gps", "tracking", "beacon", "ingest"]
+categories = ["embedded", "network-programming"]
+exclude = [".idea/", ".github/"]
+
+[dependencies]
+
+[dev-dependencies]
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docsrs"]
